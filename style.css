@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: "Wix Madefor Text", sans-serif;
+  }
+  .hero .nav1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 6vh;
+    padding: 5px;
+  }
+   .hero .nav1 input{
+    background-color: black;
+    color: white;
+    
+   }
+   .hero .nav1 p{
+    letter-spacing:3px ;
+   }
+
+   
+
+   .hero .nav1 div{
+    display: flex;
+    text-decoration: none;
+   }
+
+.hero .nav2 nav ul{
+  height: px;
+  display: flex;
+  padding: 30px;
+  gap: 30px;
+
+}
+.hero .nav2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.hero .nav2 nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  list-style: none;
+}
+.hero .nav2 nav ul{
+  list-style: none;
+}
+
+.hero .nav2 .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;      
+}
+
+.hero .nav2 .logo img {
+  width: 200px; /* Logo size */
+}
+
+.hero .nav2 .cart a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+} 
+
+
+.home {
+  background: url("section.jpg") no-repeat center center/cover;
+  padding-bottom: 20px;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  text-align: center;
+}
+.home h1 span{
+  
+  margin-left: 70px;
+  letter-spacing: 2px;
+  font-size: 65px;
+  color: black; 
+  display: block;
+  font-weight: lighter;
+  display: flex;
+  justify-content: flex-start;
+}
+.home p span{
+ 
+
+  margin-left: 70px;
+  display: block;
+  font-size: 20px;
+  color: black;
+}
+
+.btn{
+  padding-bottom: 20px;
+  margin-left: 70px;
+  color: white ;
+  font-size: 15px;
+  text-decoration: none;
+  background-color: black;
+  border: 2px solid black;
+  padding: 10px;
+  font-weight: 100;
+  border-radius: 0px;
+}
+
+.btn:hover{
+  background-color: transparent;
+  color: black;
+}
+
