@@ -122,3 +122,76 @@
   color: black;
 }
 
+.brands h2 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 80px;
+  font-weight: lighter;
+}
+
+.brands div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.brands div span{
+
+}
+.how-it-works{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how-it-works h2{
+  margin-top: 150px;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 150px;
+  font-weight: lighter;
+}
+
+.how-it-works div{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+}
+.how-it-works div img{
+  width: 60%;
+  height: 250px;
+}
+.how-it-works div h3{
+  font-weight: lighter;
+}
+
+.how-it-works div p{
+  font-weight: lighter;
+  text-align: center;
+}
+.how-it-works .img-main{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 150px;
+}
+
+.how-it-works .img-main .img1{
+  display: flex;
+  flex-direction: column;
+}
+
+.how-it-works .img-main .img2{
+  display: flex;
+  flex-direction: column;
+}
+
+.how-it-works .img-main .img3{
+  display: flex;
+  flex-direction: column;
+}
+
