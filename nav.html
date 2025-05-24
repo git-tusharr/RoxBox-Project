@@ -7,10 +7,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      />
+      <link rel="stylesheet" href="style.css">
+      <title>Document</title>
+    </head>
+    <body>
+    <input type="checkbox"  id="click">
     <header class="hero">
         <div class="nav1">
             <div>
@@ -26,9 +34,11 @@
         <div class="nav2">
             <nav>
                 <ul>
-                  <li><a href="#">Subscription Boxes</a></li>
-                  <li><a href="#">Contacts</a></li>
+                  <li><a href="#our-boxes">Subscription Boxes</a></li>
+                  <li><a href="#contact">Contacts</a></li>
                 </ul>
+                <label for="click" class="dropdown">
+                <i class="fa-solid fa-bars"></i>
               </nav>
         
 
@@ -59,14 +69,14 @@
                 <img src="brand1.png" alt="">
                 <img src="brand2.png" alt="">
                 <img src="brand3.png" alt="">
-                <img src="brand4.png" alt="">
+                <img src="brand4.png" alt="" >
             </div>
             <span>..</span>
 
         </section>
         <!-- How It Works Section -->
 
-        <section class="how-it-works">
+        <section class="how-it-works" id="how-it-works">
             <h2>How It Works</h2>
             <div class="img-main">
                 <div class="img1">
@@ -88,9 +98,98 @@
             </div>
             <a href="#" class="btn">Shop Our Boxes</a>
            </section>
-            <div>
-                
+
+
+           <!-- Our Boxes Section -->
+
+
+            <section class="our-boxes" id="our-boxes">
+                <h2>Our Subscription Boxes</h2>
+                <div class="ourboxsection1">
+                <div class="ourboximg1">
+                    <img src="OurBoxes1.png" alt="">
+                    <h3>Box of the Month </h3>
+                    <p>Describe your image here. Use catchy text to tell people the story behind the photo.</p>
+                </div>
+                <div class="ourboximg2">
+                    <img src="OurBoxes2.png" alt="">
+                    <h3>The Body & Soul Box - Limited Edition</h3>
+                    <p>Describe your image here. Use catchy text to tell people the story behind the photo.</p>
+                </div>
             </div>
+            <div class="ourboxsection2">
+                <div class="ourboximg3">
+                    <img src="OurBoxes3.png" alt="">
+                    <h3>Box of the Month </h3>
+                    <p>Describe your image here. Use catchy text to tell people the story behind the photo.</p>
+                </div>
+                <div class="ourboximg4">
+                    <img src="OurBoxes4.png" alt="">
+                    <h3>The Body & Soul Box - Limited Edition</h3>
+                    <p>Describe your image here. Use catchy text to tell people the story behind the photo.</p>
+                </div>
+            </div>
+            <a href="#" class="btn">Shop Our Boxes</a>
+            </section>
+            <!-- As Featured In Section -->
+             <section class="as-featured-in">
+             <h2>As Featured In</h2>
+            
+                <div>
+                    <img src="featured1.png" alt="">
+                    <img src="featured2.png" alt="">
+                    <img src="featured3.png" alt="">
+                    <img src="featured4.png" alt="">
+                    <img src="featured5.png" alt="">
+                </div>
+            </section>   
+
+
+ 
+            <!-- Inbox and Contact -->
+             <section class="inbox-contacts">
+                <div class="inboxcontacts">
+                <div class="shop">
+                    <h3>Shop</h3>
+                    <a href="">Subscription Boxes</a>
+                    <a href="">Shipping & Returns</a>
+                    <a href="">Store Policy</a>
+                    <a href="">Payment Method</a>
+                    <a href="">FAQ</a>
+                </div>
+                <div class="inbox-goodies">
+                    <h2>Inbox Goodies</h2>
+                    <p>Sign up to receive updates, subscription offers
+                        and alerts on limited-edition boxes</p>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email">
+
+                        <input type="checkbox" name="newsletter" id="newsletter">
+                         <label for="newsletter">Yes,subscribe me to yout newsletter.</label>
+
+                         <a class="btn" href="#">Submit</a>
+                </div>
+
+                <div class="contact" id="contact">
+                    <h3>Contact</h3>
+                    <a href="">500 Terry Francine Street</a>
+                    <a href="">San Francisco, CA 94158</a>
+                    <a href="">info@mysite.com</a>
+                    <a href="">123-456-7890</a>
+                </div>
+
+
+
+
+
+
+
+            </div>
+             </section>
+             <footer class="footer">
+                <p>© 2035 by BoxRox. Powered and created by Tushar</p>
+             </footer>
+            
     
 </body>
 </html>
